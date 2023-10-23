@@ -9,4 +9,10 @@ public class LeapYearTest {
     LeapYear leap = new LeapYear();
     assertThat(leap.leapYear(2000));
   }
+
+  @Test
+  public void isNotLeapYearIfIsDivisibleBy100ButNotBy400() {
+    LeapYear leap = new LeapYear();
+    assertThat(leap.leapYear(1800)).isFalse();
+  }
 }
