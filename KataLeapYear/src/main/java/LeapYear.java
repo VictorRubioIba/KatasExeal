@@ -1,13 +1,13 @@
 public class LeapYear {
 
   public boolean leapYear(int year) {
-    boolean leapYear = divisibleBy400(year);
+    boolean leapYear = false;
 
     if (isDivisibleBy100(year) && !divisibleBy400(year) || !isDivisibleBy4(year)) {
       leapYear = false;
     }
 
-    if (isDivisibleBy4(year) && !isDivisibleBy100(year)) {
+    if (isDivisibleBy4(year) && !isDivisibleBy100(year) || divisibleBy400(year)) {
       leapYear = true;
     }
 
