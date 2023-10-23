@@ -7,7 +7,7 @@ public class LeapYear {
       leapYear = false;
     }
 
-    if (year % 4 == 0 && !isDivisibleBy100(year)) {
+    if (isDivisibleBy4(year) && !isDivisibleBy100(year)) {
       leapYear = true;
     }
 
