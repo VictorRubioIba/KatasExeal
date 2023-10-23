@@ -11,7 +11,7 @@ public class LeapYear {
       leapYear = true;
     }
 
-    if (year % 4 != 0) {
+    if (!isDivisibleBy4(year)) {
       leapYear = false;
     }
 
@@ -24,5 +24,9 @@ public class LeapYear {
 
   private boolean isDivisibleBy100(int year) {
     return year % 100 == 0;
+  }
+
+  private boolean isDivisibleBy4(int year) {
+    return year % 4 == 0;
   }
 }
