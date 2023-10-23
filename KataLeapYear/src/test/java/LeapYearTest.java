@@ -15,4 +15,10 @@ public class LeapYearTest {
     LeapYear leap = new LeapYear();
     assertThat(leap.leapYear(1800)).isFalse();
   }
+
+  @Test
+  public void isLeapYearIfIsDivisibleBy4AndNotBy100() {
+    LeapYear leap = new LeapYear();
+    assertThat(leap.leapYear(1996)).isTrue();
+  }
 }
