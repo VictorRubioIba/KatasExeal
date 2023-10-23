@@ -11,6 +11,10 @@ public class LeapYear {
       leapYear = true;
     }
 
+    if (year % 4 != 0) {
+      leapYear = false;
+    }
+
     return leapYear;
   }
 
