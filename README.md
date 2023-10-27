@@ -1,3 +1,3 @@
 # KatasExeal
 
-pruebas para git  con fetch y pull
+pruebas para git  con fetch
