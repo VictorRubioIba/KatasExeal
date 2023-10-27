@@ -1,17 +1,17 @@
 public class LeapYear {
 
   public boolean leapYear(int year) {
-    boolean leapYear = false;
+    boolean leapYears = false;
 
     if (isDivisibleBy100(year) && !divisibleBy400(year) || !isDivisibleBy4(year)) {
-      leapYear = false;
+      leapYears = false;
     }
 
     if (isDivisibleBy4(year) && !isDivisibleBy100(year) || divisibleBy400(year)) {
-      leapYear = true;
+      leapYears = true;
     }
 
-    return leapYear;
+    return leapYears;
   }
 
   private boolean divisibleBy400(int year) {
