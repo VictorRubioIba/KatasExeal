@@ -46,11 +46,11 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;KataLeapYear/Victor&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/victorrubioibanez/Desktop/Bootcamp Exeal/KatasExeal/KataLeapYear&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "KataLeapYear/Victor",
+    "last_opened_file_path": "/Users/victorrubioibanez/Desktop/Bootcamp Exeal/KatasExeal/KataLeapYear"
   }
 }</component>
   <component name="RecentsManager">

@@ -4,7 +4,7 @@ public class LeapYear {
     boolean leapYears = false;
 
     if (isDivisibleBy100(year) && !divisibleBy400(year) || !isDivisibleBy4(year)) {
-      leapYears = false;
+      leapYear = false;
     }
 
     if (isDivisibleBy4(year) && !isDivisibleBy100(year) || divisibleBy400(year)) {
