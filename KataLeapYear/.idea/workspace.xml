@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd04bf0c-678e-44b5-9c17-3679eb2c614a" name="Changes" comment="" />
+    <list default="true" id="cd04bf0c-678e-44b5-9c17-3679eb2c614a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/LeapYear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeapYear.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,10 +34,10 @@
   <component name="OptimizeOnSaveOptions">
     <option name="myRunOnSave" value="true" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2XAld8yql9eAV6cUeosNlxrYXkr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -48,7 +50,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "KataLeapYear/Victor",
-    "last_opened_file_path": "/Users/victorrubioibanez/Desktop/Bootcamp Exeal/KatasExeal/KataLeapYear"
+    "last_opened_file_path": "/Users/victorrubioibanez/Desktop/prueba/KatasExeal/KataLeapYear"
   }
 }]]></component>
   <component name="RecentsManager">
